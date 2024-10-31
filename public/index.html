@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+           <a href="#" class="logo">SUPER MARKET</a>
+           <input type="checkbox" id="menu"/>
+           <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+           </label>
+           <nav class="navbar">
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+           </nav>
+           <div>
+            <ul>
+                <li class="submenu">
+                    <img src="images/car.svg" id="img-carrito" alt="carrito">
+                    <div id="carrito">
+                        <table id="lista-carrito">
+                            <thead>
+                                <tr>
+                                    <th>Imagen</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody></tbody>
+                        </table>
+                        <a href="#" id="vaciar-carrito" class="btn-2">Vaciar Carrito</a>
+                    </div>
+                </li>
+              </ul>
+            </div>
+         </div>
+
+          <div class="header-content container">
+            <div class="header-txt">
+                <span>Ofertas</span>
+                <h1>Productos de belleza</h1>
+                 <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Id eaque sint dolorum, labore at aut facere ipsum iste sed voluptas,
+                    nostrum neque, esse quos nisi! Vero nisi dolorum repellendus quam.
+                 </p>
+                 <a href="#" class="btn-1">Información</a>
+            </div>
+            <div class="header-img">
+                <img 
+                    src="placeholder.jpg" 
+                    data-src="images/rigth.webp" 
+                    srcset="images/rigth.webp 500w, 
+                            images/rigth.webp 1000w, 
+                            images/rigth.webp 1500w" 
+                    sizes="(max-width: 500px) 100vw, 
+                           (max-width: 1000px) 50vw, 
+                           33vw" 
+                    alt="Descripción de imagen" 
+                    loading="eager"
+                    class="lazy"> 
+            </div>
+          </div>
+    </header>
+
+    <section class="information container">
+       <div class="information-content">
+        <div class="information-1">
+            <img src="placeholder.jpg" data-src="images/i1.svg" alt="Descripción 1" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Lorem ipsum</h3>
+            <p>labore at aut facere ipsum iste sed voluptas</p>
+          </div>
+          <div class="information-1">
+            <img src="placeholder.jpg" data-src="images/i2.svg" alt="Descripción 2" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Lorem ipsum</h3>
+            <p>labore at aut facere ipsum iste sed voluptas</p>
+          </div>
+          <div class="information-1">
+            <img src="placeholder.jpg" data-src="images/i3.svg" alt="Descripción 3" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Lorem ipsum</h3>
+            <p>labore at aut facere ipsum iste sed voluptas</p>
+          </div>
+       </div>
+    </section>
+
+    <section class="oferts container">
+        <div class="ofert-1">
+            <img src="placeholder.jpg" data-src="images/f1.webp" alt="Oferta 1" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="placeholder.jpg" data-src="images/f2.webp" alt="Oferta 2" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="placeholder.jpg" data-src="images/f3.webp" alt="Oferta 3" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+        <div class="ofert-1">
+            <img src="placeholder.jpg" data-src="images/f4.webp" alt="Oferta 4" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+            <h3>Oferta</h3>
+            <p>Premium</p>
+        </div>
+    </section>
+
+    <main class="products container" id="lista-1">
+        <h2>Productos destacados</h2>
+        <div class="product-content">
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr1.webp" alt="Producto 1" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$45.850</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="1">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr2.webp" alt="Producto 2" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$800</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="2">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr3.webp" alt="Producto 3" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$2.030</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="3">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr4.webp" alt="Producto 4" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$2.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="4">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr5.webp" alt="Producto 5" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$1.555</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="5">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr6.webp" alt="Producto 6" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$955</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="6">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr7.webp" alt="Producto 7" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$15.000</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="7">Agregar</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="placeholder.jpg" data-src="images/pr8.webp" alt="Producto 8" class="lazy"
+                onerror="this.onerror=null; this.src='images/default.jpg';">
+                <div class="product-txt">
+                    <h3>Producto</h3>
+                    <p class="precio">$500</p>
+                    <a href="#" class="agregar-carrito btn-2" data-id="8">Agregar</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="service">
+        <div class="service-1">
+            <img src="placeholder.jpg" data-src="images/1.webp" alt="Descripción de servicio 1" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+        </div>
+        <div class="service-2">
+            <img src="placeholder.jpg" data-src="images/2.webp" alt="Descripción de servicio 2" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+        </div>
+        <div class="service-3">
+            <img src="placeholder.jpg" data-src="images/3.webp" alt="Descripción de servicio 3" class="lazy"
+            onerror="this.onerror=null; this.src='images/default.jpg';">
+        </div>
+    </section>
+
+    <section class="contact container">
+        <form>
+            <input type="email" placeholder="Correo" required>
+            <input type="submit" class="btn-3">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>lorem</h3>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
