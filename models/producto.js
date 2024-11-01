@@ -1,5 +1,3 @@
-// /models/Producto.js
-
 const { DataTypes } = require('sequelize');
 const sequelize = require('./index'); // Importa la conexión de Sequelize desde index.js
 
@@ -26,8 +24,8 @@ const Producto = sequelize.define('Producto', {
         allowNull: false
     }
 }, {
-    tableName: 'productos', // Nombre de la tabla en la base de datos
-    timestamps: false // Si no deseas las columnas createdAt y updatedAt
+    tableName: 'productos', 
+    timestamps: false 
 });
 
 module.exports = Producto;
