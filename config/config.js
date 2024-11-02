@@ -7,7 +7,6 @@ module.exports = {
         database: 'tienda', // Nombre de tu base de datos
         host: '127.0.0.1',
         dialect: 'mysql',
-        logging: console.log, // Opcional: muestra las consultas SQL en la consola
     },
     test: {
         username: 'root',
