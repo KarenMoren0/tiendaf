@@ -3,8 +3,8 @@
 module.exports = {
     development: {
         username: 'root',
-        password: '', // Deja vacío si no tienes contraseña en MySQL
-        database: 'tienda', // Nombre de tu base de datos
+        password: '', 
+        database: 'tienda', 
         host: '127.0.0.1',
         dialect: 'mysql',
     },
