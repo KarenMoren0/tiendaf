@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Secreto para JWT
-const JWT_SECRET = 'tu_secreto_jwt_aqui'; // Cambia esto por un valor seguro
+const JWT_SECRET = 'K250900'; 
 
 // Ruta de registro
 app.post('/registro', async (req, res) => {
