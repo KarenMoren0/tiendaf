@@ -26,7 +26,7 @@ module.exports = (sequelize, DataTypes) => {
         },
     }, {
         tableName: 'pedidos',
-        timestamps: false, // O puedes usar timestamps si quieres registrar createdAt y updatedAt
+        timestamps: false, 
     });
 
     return Pedido;
