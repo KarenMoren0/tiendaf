@@ -6,7 +6,7 @@ const fs = require('fs');
 const https = require('https');
 const http = require('http');
 const authRouter = require('./middleware/auth');
-const productosRouter = require('../routes/productos'); // Asegúrate de que la ruta sea correcta
+const productosRouter = require('../routes/productos'); 
 const sequelize = require('../config/database');
 const { authenticateToken, authorizeRole } = require('./middleware/auth');
 
@@ -20,7 +20,7 @@ app.use(bodyParser.json());
 
 // Usar los routers
 app.use('/api/usuarios', authRouter); 
-app.use('/api/productos', productosRouter); // Asegúrate de que productosRouter esté definido
+app.use('/api/productos', productosRouter); 
 
 // Ejemplo de ruta protegida
 app.get('/api/protected', authenticateToken, (req, res) => {
