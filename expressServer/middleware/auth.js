@@ -6,7 +6,7 @@ const { Usuario } = require('C:\\Users\\Moren\\OneDrive\\Documents\\Tienda\\mode
 
 
 const router = express.Router();
-const SECRET_KEY = process.env.SECRET_KEY || 'K250900'; // Mueve esta clave a una variable de entorno
+const SECRET_KEY = process.env.SECRET_KEY || 'K250900';
 
 // Ruta de registro de usuario
 router.post('/register', [
